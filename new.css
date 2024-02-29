@@ -1,0 +1,34 @@
+body {
+    background: #1fb82e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24a0df, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ec8129, #31af3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 40px;
+    margin: 45px;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+.student-profile .card {
+    border-radius: 5px;
+}
+.student-profile .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #2655d6;
+    border-radius: 50%;
+}
+.student-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.student-profile .card p {
+    font-size: 16px;
+    color: #cf2929;
+}
+.student-profile .table th,
+.student-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+}
